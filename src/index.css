@@ -528,7 +528,7 @@ h1 {
   flex-grow: 0;
   justify-content: space-between;
   align-items: center;
-  background-color: #abacb180;
+  background-color: #7e7e8180;
   border-radius: 3rem;
 }
 @media screen and (min-width: 50rem) {
@@ -644,13 +644,13 @@ h1 {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #f4a261;
+  background-color: #a39991c5;
   
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: rgba(108, 177, 68, 0.322);
+  background-color: rgba(168, 168, 141, 0.322);
   color: #fff;
   transform: rotateY(180deg);
   text-shadow: 0 1.1rem 1.1rem;

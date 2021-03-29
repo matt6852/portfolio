@@ -2,8 +2,8 @@ import React from "react";
 import { FaFacebookF, FaInstagramSquare, FaVk } from "react-icons/fa";
 
 const contacts = () => {
-    const time = new Date().getFullYear().toLocaleString().replace(/\s/g, "");
-    
+  const time = new Date().getFullYear().toLocaleString().replace(/\s/g, "");
+  console.log(time);
   return (
     <div id="contacts">
       <div className="projects__title">
@@ -12,7 +12,7 @@ const contacts = () => {
       <div className="contacts__center">
         <h3>email:</h3>
         <div className="footer_flex">
-          <p>prorkwow@mail.ru</p>
+          <p>prorokwow@mail.ru</p>
           <div>
             <h3>telegram:</h3>
             <p>@Sergey_Ball</p>
@@ -33,8 +33,7 @@ const contacts = () => {
             </div>
           </div>
           <p>
-            made by Sergey Maychin &copy;
-            {time}
+            made by Sergey Maychin &copy; {time}
           </p>
         </div>
       </div>
