@@ -449,7 +449,7 @@ h1 {
 /* section about */
 #about {
   text-align: center;
-  padding: 2rem 0.5rem;
+  padding: 0rem 0.5rem;
   min-width: 95vw;
   min-height: 95vh;
   margin: 0 auto;
@@ -710,7 +710,7 @@ h1 {
 #contacts {
   padding: 0rem 0.5rem;
   min-width: 95vw;
-  min-height: 95vh;
+  min-height: 80vh;
   margin: 0 auto;
   position: relative;
   background: transparent;
@@ -725,7 +725,7 @@ h1 {
 }
 
 .footer_flex{
-  height: 90vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
