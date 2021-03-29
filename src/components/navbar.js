@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="nav-center">
         <div className="nav-header">
           <h3>
-            <a className ="logo" href="/">Sergey Maychin</a>
+            <Link to="/">Sergey Maychin</Link>
           </h3>
           <button className="nav-toggle" onClick={() => setShowNav(!showNav)}>
             <FaBars />
