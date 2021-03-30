@@ -1,8 +1,10 @@
-import React from "react";
+
 import { FaFacebookF, FaInstagramSquare, FaVk } from "react-icons/fa";
 
-const contacts = () => {
-  const time = new Date().getFullYear().toLocaleString().replace(/\s/g, "");
+import Time from './time'
+
+const Contacts = () => {
+  
   return (
     <div id="contacts">
       <div className="projects__title">
@@ -31,13 +33,17 @@ const contacts = () => {
               </a>{" "}
             </div>
           </div>
-          <p>
-            made by Sergey Maychin &copy; {time}
-          </p>
+          <div>
+            <p>
+
+            made by Sergey Maychin &copy; 
+            </p>
+            <Time/>
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default contacts;
+export default Contacts;
