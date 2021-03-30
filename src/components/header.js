@@ -1,6 +1,7 @@
 import React from 'react'
 import sun from "../assets/sun.png"
 import clouds from "../assets/clouds.png"
+import {Link} from "react-router-dom"
 
 const header = () => {
     return (
@@ -13,9 +14,9 @@ const header = () => {
               <span className="banner word-1">Front-end</span>
               <span className="banner word-2">
                 React{" "}
-                <a className="click" href="#sendMessage">
+                <Link className="click" to="/contacts">
                   Hire me!
-                </a>
+                </Link>
               </span>
               <span className="banner word-3">JavaScript</span>
             </h1>
