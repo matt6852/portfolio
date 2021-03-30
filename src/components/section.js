@@ -1,6 +1,5 @@
 import React from 'react'
 import {
-  FaMehRollingEyes,
   FaCss3Alt,
   FaHtml5,
   FaSass,

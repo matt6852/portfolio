@@ -154,6 +154,10 @@ nav {
   height: 40px;
   color: var(--clr-primary-8);
 }
+.logo:active {
+  height: 40px;
+  color: var(--clr-primary-8);
+}
 .links a {
   color: #fff;
   font-size: 1rem;
@@ -229,7 +233,6 @@ nav {
   color: #f2e9e4;
   align-items: center;
   backface-visibility: hidden;
-
 }
 
 .banner-main h1 {
@@ -245,9 +248,9 @@ nav {
 .sun {
   display: none;
 }
- .clouds{
-   display: none;
- }
+.clouds {
+  display: none;
+}
 h1 {
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -556,7 +559,6 @@ h1 {
     padding-top: 3rem;
     font-size: 2rem;
     color: #e4f7f2;
-
   }
 }
 /* end of about */
@@ -625,7 +627,6 @@ h1 {
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
-
 }
 
 /* Position the front and back side */
@@ -639,13 +640,11 @@ h1 {
   backface-visibility: hidden;
   border-radius: 25%;
   overflow: hidden;
-
 }
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
   background-color: #a39991c5;
-  
 }
 
 /* Style the back side */
@@ -716,28 +715,43 @@ h1 {
   background: transparent;
 }
 
-.contacts__center{
+.contacts__center {
   text-align: center;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(117,28,147,0.24163168685442926) 32%, rgb(80, 151, 165) 100%), url(./assets/footer.jpg) center/cover no-repeat;
-  min-width: 40vw;
+  background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(117, 28, 147, 0.24163168685442926) 32%,
+      rgb(80, 151, 165) 100%
+    ),
+    url(./assets/footer.jpg) center/cover no-repeat;
+  min-width: 50vw;
   min-height: 95vh;
-  border-radius: 10%;
+  
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  opacity: 0.77;
 }
-
-.footer_flex{
+.contacts__center p {
+  color: #0d0d14;
+  font-weight: bold;
+}
+.contacts__center h3 {
+  color: #0d0d14;
+  font-weight: bold;
+}
+.footer_flex {
   height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
-.socila-flex{
+.socila-flex {
   min-width: 90vw;
   display: flex;
   justify-content: space-evenly;
 }
-.socila-flex a{
-  color:#0d0d14
+.socila-flex a {
+  color: #0d0d14;
 }
 
 /* 

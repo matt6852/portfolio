@@ -3,7 +3,6 @@ import { FaFacebookF, FaInstagramSquare, FaVk } from "react-icons/fa";
 
 const contacts = () => {
   const time = new Date().getFullYear().toLocaleString().replace(/\s/g, "");
-  console.log(time);
   return (
     <div id="contacts">
       <div className="projects__title">
