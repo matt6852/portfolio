@@ -726,7 +726,7 @@ h1 {
     url(./assets/footer.jpg) center/cover no-repeat;
   min-width: 50vw;
   min-height: 95vh;
-  
+  border-radius: 5%;
  
   opacity: 0.77;
 }
