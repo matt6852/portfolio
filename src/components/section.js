@@ -12,7 +12,7 @@ import {
   FaSmileWink,
 } from "react-icons/fa";
 
-const section = () => {
+const Section = () => {
     return (
         <section id="about">
       <div className="about__title">
@@ -51,4 +51,4 @@ const section = () => {
     )
 }
 
-export default section
+export default Section

@@ -1,20 +1,44 @@
-import React from "react";
+import React,{useState} from "react";
 import Card from "./card";
 
 
-const projects = ( {data} ) => {
+const Projects = ( {data} ) => {
+  const[show,setShow] =useState(false)
+  console.log(show);
+  
   return (
     <section id="projects" className="py-5">
       <div className="projects__title">
         <h2 className="projects__title-text">projects</h2>
       </div>
-      <div className="maincontainer">
-        {data.map((card)=>{
-            return <Card key = {card.id} {...card}/>
+
+      {show ? (
+        <div className="maincontainer">
+          {data.map((card) => {
+            return <Card key={card.id} {...card} />;
+          })}
+        </div>
+      ) : (
+        <div className="maincontainer">
+          {data.slice(0,3).map((card) => {
+            return <Card key={card.id} {...card} />;
+          })}
+        </div>
+      )}
+      {/* <div className="maincontainer">
+        {data.map((card) => {
+          return <Card key={card.id} {...card} />;
         })}
+      </div> */}
+
+      <div className="center">
+        <button className="click-2" onClick={() => setShow(!show)}>
+          {" "}
+          {show ? "show less" : "show more"}{" "}
+        </button>
       </div>
     </section>
   );
 };
 
-export default projects;
+export default Projects;

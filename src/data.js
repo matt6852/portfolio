@@ -6,6 +6,9 @@ import dogsFull from "./assets/dogsFull.png";
 import dogsSmall from "./assets/dogsSmall.png";
 import watcherFull from "./assets/watcherFull.png";
 import watcherSmall from "./assets/watcherSmall.png";
+import hakerSmall from "./assets/hakerSmall.png";
+import hakerfull from "./assets/hakerFull.png";
+
 
 export const links = [
 
@@ -81,5 +84,15 @@ export const projects = [
     imgSmall: watcherSmall,
     webLink: "https://react-todo-watcher.netlify.app/",
     codeLink: "https://github.com/matt6852/to-do",
+  },
+  {
+    id: 4,
+    title: "Haker news",
+    descriotion: "react",
+    technologi: ["reducer", "hooks", "fetching data", "pagination"],
+    imgBig: hakerfull,
+    imgSmall: hakerSmall,
+    webLink: "https://hungry-kirch-0000e6.netlify.app/",
+    codeLink: "https://github.com/matt6852/haker_news",
   },
 ]; 
