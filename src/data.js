@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBehance, FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaBehance, FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import cocktailFull from "./assets/cocktailFull.png";
 import cocktailSmall from "./assets/cocktailSmall.png";
 import dogsFull from "./assets/dogsFull.png";
@@ -43,8 +43,8 @@ export const social = [
   },
   {
     id: 3,
-    url: "https://www.twitter.com",
-    icon: <FaLinkedin />,
+    url: "https://github.com/dashboard",
+    icon: <FaGithub />,
   },
   {
     id: 4,
@@ -77,7 +77,7 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Dogsgination",
+    title: "to do",
     descriotion: "react",
     technologi: ["react", "hooks", "fetching data", "pagination"],
     imgBig: watcherFull,
