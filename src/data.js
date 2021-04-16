@@ -43,7 +43,7 @@ export const social = [
   },
   {
     id: 3,
-    url: "https://github.com/dashboard",
+    url: "https://github.com/matt6852",
     icon: <FaGithub />,
   },
   {
