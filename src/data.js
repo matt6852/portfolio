@@ -8,6 +8,8 @@ import watcherFull from "./assets/watcherFull.png";
 import watcherSmall from "./assets/watcherSmall.png";
 import hakerSmall from "./assets/hakerSmall.png";
 import hakerfull from "./assets/hakerFull.png";
+import yarvino_b from "./assets/yarvino_b.png";
+import yarvino_m from "./assets/yarvino_m.png";
 
 
 export const links = [
@@ -94,5 +96,15 @@ export const projects = [
     imgSmall: hakerSmall,
     webLink: "https://hungry-kirch-0000e6.netlify.app/",
     codeLink: "https://github.com/matt6852/haker_news",
+  },
+  {
+    id: 5,
+    title: "Yarvino",
+    descriotion: "NextJS",
+    technologi: ["hooks", "fetching data", "sending emails"],
+    imgBig: yarvino_b,
+    imgSmall: yarvino_m,
+    webLink: "https://lakes.vercel.app/",
+    codeLink: "https://github.com/matt6852/lakes",
   },
 ]; 
