@@ -15,17 +15,17 @@ export const links = [
   {
     id: 2,
     url: "/about",
-    text: "about",
+    text: "кто я",
   },
   {
     id: 3,
     url: "/projects",
-    text: "projects",
+    text: "Проекты",
   },
   {
     id: 4,
     url: "/contacts",
-    text: "contact",
+    text: "Контакты",
   },
  
 ];

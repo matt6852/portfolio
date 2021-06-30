@@ -15,7 +15,7 @@ const header = () => {
               <span className="banner word-2">
                 React{" "}
                 <Link className="click" to="/contacts">
-                  Hire me!
+                  Нанять меня!
                 </Link>
               </span>
               <span className="banner word-3">JavaScript</span>

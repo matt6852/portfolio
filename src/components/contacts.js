@@ -8,18 +8,18 @@ const Contacts = () => {
   return (
     <div id="contacts">
       <div className="projects__title">
-        <h2 className="projects__title-text">contact me</h2>
+        <h2 className="projects__title-text">Связаться со мной</h2>
       </div>
       <div className="contacts__center">
-        <h3>email:</h3>
+        <h3>Почта:</h3>
         <div className="footer_flex">
           <p>prorokwow@mail.ru</p>
           <div>
-            <h3>telegram:</h3>
+            <h3>Телеграм:</h3>
             <p>@Sergey_Ball</p>
           </div>
           <div>
-            <h3>Social:</h3>
+            <h3>Медия:</h3>
             <div className="socila-flex">
               <a href="https://www.facebook.com/profile.php?id=100023386068140">
                 {" "}

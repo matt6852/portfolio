@@ -14,41 +14,44 @@ import {
 
 const Section = () => {
     return (
-        <section id="about">
-      <div className="about__title">
-        <h2 className="about__title-text">about</h2>
-      </div>
-      <div className="container__about-center">
-        <div className="about__bio flex-items">
-          <h3 className="about__bio-title">Hi there !</h3>
-          <div className="brain"><FaSmileWink/></div>
-          <p className="about__bio-text">
-            My name's Sergey I'm a JS React developer. I truly love to
-            create something beautiful and fascinating. I do enjoy making
-            applications and websites also I'm passionate about new technology.
-            Please enjoy my little website, here you can find all the necessary
-            information and different websites for you!
-          </p>
+      <section id="about">
+        <div className="about__title">
+          <h2 className="about__title-text">Кто я</h2>
         </div>
-        <div className="about__skils flex-items">
-          <h3 className="about__skils-title">Skils :</h3>
-          <div className="brain"><FaBrain/></div>
+        <div className="container__about-center">
+          <div className="about__bio flex-items">
+            <h3 className="about__bio-title">Привет !</h3>
+            <div className="brain">
+              <FaSmileWink />
+            </div>
+            <p className="about__bio-text">
+              Меня зовут Сергей. Я разработчик JS React. Я действительно люблю
+              создать что-то красивое и завораживающее. Мне нравится делать
+              приложения и веб-сайты также я увлечен новыми технологиями.
+              Пожалуйста, наслаждайтесь моим маленьким сайтом, здесь вы можете
+              найти все необходимое информация и разные сайты для вас!
+            </p>
+          </div>
+          <div className="about__skils flex-items">
+            <h3 className="about__skils-title">Навыки :</h3>
+            <div className="brain">
+              <FaBrain />
+            </div>
 
-          <div className="about__skils-items">
-            <FaHtml5 className ="item"/> 
-            <FaCss3Alt className ="item" />
-            <FaSass className ="item"/>
-            <FaBootstrap className = "item"/>
-            <FaJsSquare className ="item"/>
-            <FaReact className = "item"/>
-            <FaGithubAlt className ="item"/>
-            <FaNpm className = "item"/>
-        
+            <div className="about__skils-items">
+              <FaHtml5 className="item" />
+              <FaCss3Alt className="item" />
+              <FaSass className="item" />
+              <FaBootstrap className="item" />
+              <FaJsSquare className="item" />
+              <FaReact className="item" />
+              <FaGithubAlt className="item" />
+              <FaNpm className="item" />
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    )
+      </section>
+    );
 }
 
 export default Section
